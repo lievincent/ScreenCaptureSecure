@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(enableSecure)
                                                 usingBlock:^(NSNotification *note) {
                                                     // executes after screenshot
                                                     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
-                                                                                message:@"Screen capture detected.\n Please don't take any pictures from this screen"
+                                                                                message:@"Screen capture detected.\n Please don't take any pictures from this screen."
                                                                                 preferredStyle:UIAlertControllerStyleAlert];
 
                                                     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
